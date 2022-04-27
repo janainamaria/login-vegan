@@ -10,19 +10,24 @@ function validarFormulario(){
     let select = formulario.select
 
     if (nome1 == '') {
-      nome.style.border = "2px solid red";
-      alert('preencha o campo nome!')
+      nome.style.border = "1px solid red";
+      
+    }else{
+        nome.style.border = "none";
     }
     if (email1 == '') {
-        email.style.border = "2px solid red";
-        alert('preencha o campo email!')
-      }
+        email.style.border = "1px solid red";
+    }else{
+        nome.style.border = "none";
+    }
       if (senha1 == '') {
-        senha.style.border = "2px solid red";
-        alert('preencha o campo nome!')
-      }
-      if (select1 == '') {
-        select.style.border = "2px solid red";
-        alert('preencha o campo nome!')
-      }
+        senha.style.border = "1px solid red";    
+    }else{
+        nome.style.border = "none";
+    }
+    if (select1 == '') {
+        select.style.border = "1px solid red";
+    }else{
+        nome.style.border = "none";
+    }
 }
