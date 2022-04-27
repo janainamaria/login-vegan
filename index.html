@@ -15,33 +15,35 @@
         </div>
         <div class="right-login">
             <div class="card">
-                <form action="">
+                <form action="#" name="formulario">
                 <h1>CADASTRE-SE</h1>
                 <div class="text">
                     <label for="usuario">Nome:</label>
-                    <input type="text" name="usuario" required placeholder="Digite seu nome">
+                    <input type="text" name="nome"  placeholder="Digite seu nome">
                 </div>
                 <div class="text">
                     <label for="email">email:</label>
-                    <input type="email" name="email" required placeholder="Digite seu email">
+                    <input type="email" name="email"  placeholder="Digite seu email">
                 </div>
                 <div class="text">
                     <label for="senha">Senha:</label>
-                    <input type="password" name="senha" required placeholder="Digite sua senha">
+                    <input type="password" name="senha"  placeholder="Digite sua senha">
                 </div>
                 <div class="text">
                     <label for="select">Tipo de usuario:</label>
-                    <select name="select" class="select" required>
+                    <select name="select" class="select"  >
                         <option value="valor1">cliente</option>
                         <option value="valor2" selected>Administrador</option>
                     </select>
                 </div>
             
-                <button class="btn" type="submit">Cadastrar</button>
+                <button class="btn" type="button" onclick="validarFormulario()">Cadastrar</button>
                 <p>já possui uma conta? <a href="login.html">Entre aqui!</a></p>
             </form>
             </div>
         </div>
             </div>
+            <script src="js/script.js"></script>
+            
 </body>
 </html>
