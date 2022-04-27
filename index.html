@@ -17,14 +17,25 @@
             <div class="card">
                 <h1>CADASTRE-SE</h1>
                 <div class="text">
-                    <label for="usuario">Usuario</label>
-                    <input type="text" name="usuario" placeholder="Digite seu usuario">
+                    <label for="usuario">Nome:</label>
+                    <input type="text" name="usuario" placeholder="Digite seu nome">
                 </div>
                 <div class="text">
-                    <label for="senha">Senha</label>
+                    <label for="email">email:</label>
+                    <input type="email" name="email" placeholder="Digite seu email">
+                </div>
+                <div class="text">
+                    <label for="senha">Senha:</label>
                     <input type="password" name="senha" placeholder="Digite sua senha">
                 </div>
-                <button class="btn">Entrar</button>
+                <div class="text">
+                    <label for="select">Tipo de usuario:</label>
+                    <select name="select" class="select">
+                        <option value="valor1">cliente</option>
+                        <option value="valor2" selected>Administrador</option>
+                    </select>
+                </div>
+                <button class="btn">Cadastrar</button>
                 <p>já possui uma conta? <a href="login.html">Entre aqui!</a></p>
             </div>
         </div>
