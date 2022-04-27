@@ -82,7 +82,7 @@ body{
 .btn {
     width: 100%;
     padding: 16px 0px;
-    margin: 25px;
+    margin-top: 1vw;
     border: none;
     border-radius: 8px;
     outline: none;
