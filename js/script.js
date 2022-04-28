@@ -25,12 +25,14 @@ function validarFormulario(){
           campoemail.innerHTML = 'Preencha este campo!'
       }else{
           email.style.border = "none";
+          campoemail.style.display = "none"
       }
         if (senha1 == '') {
           senha.style.border = "1px solid red";
           camposenha.innerHTML = 'Preencha este campo!'    
       }else{
           senha.style.border = "none";
+          camposenha.style.display = "none"
       }
       if (select1 == '') {
           select.style.border = "1px solid red";
