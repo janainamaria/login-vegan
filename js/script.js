@@ -7,23 +7,26 @@ let nome = formulario.nome
 let email = formulario.email
 let senha = formulario.senha
 let select = formulario.select
- 
+
+let camponome = document.getElementById("pnome")
+let campoemail = document.getElementById("pemail")
+let camposenha = document.getElementById("psenha")
 function validarFormulario(){
     if (nome1 == '') {
         nome.style.border = "1px solid red";
-        alert ('preencha o campo nome!')
+        camponome.innerHTML = 'Preencha este campo!'
       }else{
           nome.style.border = "none"
       }
       if (email1 == '') {
           email.style.border = "1px solid red";
-          alert ('Preencha o campo email!')
+          campoemail.innerHTML = 'Preencha este campo!'
       }else{
           email.style.border = "none";
       }
         if (senha1 == '') {
           senha.style.border = "1px solid red";
-          alert ('Preencha o campo senha!')    
+          camposenha.innerHTML = 'Preencha este campo!'    
       }else{
           senha.style.border = "none";
       }

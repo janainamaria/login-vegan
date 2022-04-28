@@ -127,10 +127,13 @@ body{
 }
 .mensagem{
     color: white;
+    font-size: 12px;
 }
 .mensagem > a{
     color: #014034;
+    font-size: 12px;
 }
 p{
     color: red;
+    font-size: 10px;
 }

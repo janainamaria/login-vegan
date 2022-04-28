@@ -8,16 +8,17 @@ let campousuario = document.getElementById("p1")
 let camposenha = document.getElementById("p2")
 
 function validarFormulario(){
-    if (usuario1 == '') {
+    if (usuario1 == "") {
         usuario.style.border = "1px solid red";
         campousuario.innerHTML = 'Preencha este campo!'
-      }else{
-          usuario.style.border = "none"
-      }
-     if (senha1 == '') {
+    }else{
+        usuario.style.border = "none"
+    }
+     if (senha1 == "") {
           senha.style.border = "1px solid red";
           camposenha.innerHTML = 'Preencha este campo!'
       }else{
           senha.style.border = "none";
+
       }
 }
