@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style login.css">
     <title>Login vegan</title>
 </head>
 <body>
@@ -15,21 +15,22 @@
         </div>
         <div class="right-login">
             <div class="card">
-                <form action="">
+                <form action="#" name="formulario">
                 <h1>LOGIN</h1>
                 <div class="text">
                     <label for="usuario">Usuario</label>
-                    <input type="text" name="usuario" placeholder="Digite seu usuario">
+                    <input type="text" name="usuario" placeholder="Digite seu usuario"><p id="p1"></p>
                 </div>
                 <div class="text">
                     <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Digite sua senha">
+                    <input type="password" name="senha" placeholder="Digite sua senha"><p id="p2"></p>
                 </div>
-                <button class="btn">Login</button>
+                <button class="btn" type="button" onclick="validarFormulario()">Login</button>
                 <p>Não possui uma conta? <a href="index.html">Cadastre-se aqui!</a></p>
             </form>
             </div>
         </div>
             </div>
+            <script src="js/login.js"></script>
 </body>
 </html>
