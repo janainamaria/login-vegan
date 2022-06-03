@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="css/style index.css">
     <title>Login vegan</title>
 </head>
+
 <body>
     <div class="main-login">
         <div class="laft-login">
@@ -15,35 +17,35 @@
         </div>
         <div class="right-login">
             <div class="card">
-                <form action="#" name="formulario">
-                <h1>CADASTRE-SE</h1>
-                <div class="text">
-                    <label for="usuario">Nome:</label>
-                    <input type="text" name="nome"  placeholder="Digite seu nome"><p id="pnome"></p>
-                </div>
-                <div class="text">
-                    <label for="email">email:</label>
-                    <input type="email" name="email"  placeholder="Digite seu email"><p id="pemail"></p>
-                </div>
-                <div class="text">
-                    <label for="senha">Senha:</label>
-                    <input type="password" name="senha"  placeholder="Digite sua senha"><p id="psenha"></p>
-                </div>
-                <div class="text">
-                    <label for="select">Tipo de usuario:</label>
-                    <select name="select" class="select"  >
-                        <option value="valor1">cliente</option>
-                        <option value="valor2" selected>Administrador</option>
-                    </select>
-                </div>
-            
-                <button class="btn" type="button" onclick="validarFormulario()">Cadastrar</button>
-                <p class="mensagem">já possui uma conta? <a href="login.html">Entre aqui!</a></p>
-            </form>
+                <form action="#" name="formulario" id="formulario">
+                    <h1>CADASTRE-SE</h1>
+                    <div class="text">
+                        <label for="usuario">Nome:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                    </div>
+                    <div class="text">
+                        <label for="email">email:</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu email">
+                    </div>
+                    <div class="text">
+                        <label for="senha">Senha:</label>
+                        <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+                    </div>
+                    <div class="text">
+                        <label for="select">Tipo de usuario:</label>
+                        <select name="select" class="select">
+                            <option value="valor1">cliente</option>
+                            <option value="valor2" selected>Administrador</option>
+                        </select>
+                    </div>
+
+                    <button class="btn" type="button" onclick="validarFormulario()">Cadastrar</button>
+                </form>
             </div>
         </div>
-            </div>
-            <script src="js/script.js"></script>
-            
+    </div>
+    <script src="js/script.js"></script>
+
 </body>
+
 </html>
